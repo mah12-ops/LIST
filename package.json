@@ -1,0 +1,19 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"no test specified\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.9.7"
+  }
+}
