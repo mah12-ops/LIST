@@ -12,10 +12,10 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-  //  te12
 
 
-mongoose.connect("mongodb+srv://admin-mercy:te12@cluster0.d71be.mongodb.net/todolistDB", {
+
+mongoose.connect("mongodb+srv://admin-*****:****@cluster0.d71be.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -155,6 +155,3 @@ app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
 
-
-// api key5f492e5a-04cb-4498-bea1-da94cc5aa09b
-// public key fuofotio
